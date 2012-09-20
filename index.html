@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Welcome to Foundation</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+  <body>
+    <div class="container">
+     <header id="header" class="">  
+          <div class="row">
+            <div class="seven columns" id="logo">
+              <img src="images/logo.svg" alt="">
+            </div>
+            <div class="five columns">
+              <div role="punchline">
+                <h1>The fastest way to learn development in <strong>asp.net mvc</strong>.</h1>
+              </section>
+            </div>
+          </div>
+      </header><!-- /header -->  
+
+      <section role="features">
+        <div class="row">
+          <div class="six columns">
+            <div id="blue">
+              <h2>Short screencasts</h2>
+              <p>to teach you new topics.</p>
+            </div>
+            <div id="orange">
+              <h2>Code reviews</h2>
+              <p>with feedback from your instructors.</p>
+            </div>          
+          </div>
+          <div class="six columns">
+            <div id="pink">
+              <h2>Fun exercises</h2>
+              <p>to put your lessons into practice.</p>
+            </div>
+            <div id="green">
+              <h2>Office hours</h2>
+              <p>with your instructors so you can ask questions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section role="contact">
+        <div class="row">
+         <h3><strong>Register</strong> to get updates on our launch (we do not send spam!)</h3>
+           <div role="contact_form" id="cf">
+          <div class="seven columns">
+            <form>
+               <h3>Choose your level:</h3>
+               <label><input type="checkbox" name="" value="">Basic:<span>for beginners blah, blah</span></label>
+               <label><input type="checkbox" name="" value="">Intermediate:<span>for unbeginners blah, blah</span></label>
+               <label><input type="checkbox" name="" value="">Advanced:<span>for more than unbeginners blah, blah</span></label>
+          </div>            
+          <div class="four columns">
+                <label>Name<input type="text" name="name" placeholder="Enter your name"></label>
+                <label>Email<input type="text" name="email" placeholder="...and email"></label>
+                <button type="submit" name="submit"><img src="images/sendicon.svg" alt="">Send
+                </button>  
+            </form>
+          </div>  
+
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="row">
+        <p>Copyright by MVCgo of Brian Donahue and associates (Temporarily by <a href="http://maxaugustyn.com">Max Augustyn</a>) </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</body>
+</html>
